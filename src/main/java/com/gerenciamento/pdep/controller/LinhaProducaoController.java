@@ -40,7 +40,7 @@ public class LinhaProducaoController {
 	}
 	
 	@PutMapping("/uptadeProducao")
-	public LinhaProducao uptadeProducao(LinhaProducao linhaProducao) {
+	public LinhaProducao uptadeProducao(@RequestBody LinhaProducao linhaProducao) {
 		return linhaProducaoService.updateProducao(linhaProducao);
 	}
 	

@@ -39,7 +39,7 @@ public class LinhaProducaoService {
 	
 	public 	String deleteProducaoId(int id) {
 		linhaProducaoRepository.deleteById(id);;
-		return "Linha de Producao REMOVIDA" + id;
+		return "Linha de Producao REMOVIDA, id = "  + id;
 	}
 	
 	
