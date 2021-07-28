@@ -20,7 +20,7 @@ public class Armazens {
 	private boolean armazenA1;
 	private boolean armazenA2;
 	
-	@OneToMany
+	@OneToMany(mappedBy = "armazens")
 	private List<Pedido> pedidos;
 	
 	public Armazens() {

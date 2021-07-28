@@ -29,6 +29,9 @@ public class Pedido {
     
 	@ManyToOne
 	private Armazens armazens;
+	
+	@ManyToOne
+	private LinhaProducao linhaProducao;
     
     public Pedido() {
     }

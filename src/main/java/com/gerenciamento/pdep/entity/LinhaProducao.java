@@ -1,10 +1,13 @@
 package com.gerenciamento.pdep.entity;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -18,6 +21,9 @@ public class LinhaProducao {
 	@Column(nullable = false)
 	private boolean lpx;
 	private boolean lpy;
+	
+	@OneToMany
+	private List<Pedido> pedido;
 	
 	public LinhaProducao() {	
 	}

@@ -33,7 +33,7 @@ public class Cliente {
 	@JoinTable(name = "carteira_pedidos",
 		joinColumns = @JoinColumn(name = "cnpj"),
 		inverseJoinColumns = @JoinColumn(name = "numPedido"))
-	Set<Pedido> pedidos = new HashSet<>();
+	private Set<Pedido> pedidos = new HashSet<>();
 	
 	public Cliente() {
 	}
