@@ -41,4 +41,4 @@ LPY: Segunda Linha de Produção, servindo e direcionando apenas os produtos Y.
 A entidade Ordens de produção, será o resultado do programa, dando informações como:  
 O produto específico escolhido, sua quantidade que deve ser produzida e em que linha de produção.
 
-Exemplo: Produção de 15000 unidades do produtoX na linha LPX.
+Exemplo: Produção de 15000 unidades do produtoX na linha LPX para determinado cliente.
